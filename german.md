@@ -1,11 +1,11 @@
-# Regular Expression Cheat Sheet - PCRE 
-# Deutsche Übersetzung
+# Regular Expression Cheat Sheet - PCRE [de]
+
 |Anchor|Description|Example|Valid match|Invalid|
 :---|:---|:---|:---|---
 ^|Anfang eines Strings oder einer Zeile|^foam|foam|bath foam|
 \A|Anfang eines Strings in jedem Treffer Modus|\Afoam|foam|bath foam|
-$|end of string or line|finish$|finish|finnish|
-\Z|end of string, or char before last new line in any match mode|finish\Z|finish|finnish|
+$|Ende eines Strings oder einer Zeile|finish$|finish|finnish|
+\Z|Ende eines Strings oder Zeichen vor der letzten neuen Zeile in jedem Treffer Modus|finish\Z|finish|finnish|
 \z|end of string, in any match mode.|
 \G|end of the previous match or the start of the string for the first match|\^(get\|set)\|\G\w+$|setValue|seValue
 \b|word boundary; position between a word character (\w), and a nonword character (\W)|\bis\b|This island is beautiful|This island isn't beautiful
